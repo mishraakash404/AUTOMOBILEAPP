@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css"/>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <title>
+            CArFENKO
+        </title>
+    </head>
+    <body>
+        <div class="grid-container">
+            <header class="header">
+                <div class="brand">
+                    <button onclick="openMenu()">
+                        &#9776;
+                    </button>
+                    <a href="index.html">CARFENKO</i></a>
+                </div>
+                <div class="header-links">
+                    <a href="signnin.html">SignIn</a>
+                    <a href="sell.html">SellCars</a>
+                    <a href="buy.html">BuyCars</a>
+                    <a href="news.html">News</a>
+                    <a href="reviews.html">Reviews</a>
+
+                </div>
+            </header>
+            <aside class="sidebar">
+                <h3><i class="fa fa-home"></i></h3>
+                <button class="sidebar-close-button" onclick="closeMenu()">x</button>
+                <ul>
+                    <li>
+                        <a href="index.html" >SignIn</a>
+                    </li>
+                    <li>
+                        <a href="sell.html">Sellyourcar</a>
+                    </li>
+                    <li>
+                        <a href="buy.html">Buynewcar</a>
+                    </li>
+                    <li>
+                        <a href="news.html">News</a>
+                    </li>
+                    <li>
+                        <a href="reviews.html">Reviews</a>
+                    </li>
+                </ul>
+
+            </aside>
+            
+            <main class="main">
+                <div class="content">
+                    <ul class="products">
+                        <li>
+                            <div class="product">
+                                <img class="product-image" src="images/creta.jpg" alt="creta"/>
+                                <div class="product-name"><a href="blog1.html">Hyundai creta </a></div>
+                                <div class="product-brand">Hyundai </div>
+                                <div class="product-price"> ₹ 9.99 lakhs onwards</div>
+                                <div class="product-version"> SX model</div>
+
+                            </div>
+                    
+                        </li>
+                        <li>
+                            <div class="product">
+                                <img class="product-image" src="images/Hyundai venue.jpg" alt="venue"/>
+                                <div class="product-name"><a href="blog1.html">Hyundai Venue </a></div>
+                                <div class="product-brand">Hyundai </div>
+                                <div class="product-price"> ₹6.75 lakhs - ₹11.7 lakhs</div>
+                                <div class="product-version"> Sport trim model</div>
+                        
+                            </div>
+                        
+                        </li>
+                        <li>
+                            <div class="product">
+                                <img class="product-image" src="images/verna2.jpg" alt="creta"/>
+                                <div class="product-name"><a href="blog1.html">Hyundai verna </a></div>
+                                <div class="product-brand">Hyundai </div>
+                                <div class="product-price"> ₹ 9.03 lakhs onwards</div>
+                                <div class="product-version"> E 1.5VTVT</div>
+                        
+                            </div>
+                        
+                        </li>
+                        <li>
+                            <div class="product">
+                                <img class="product-image" src="images/thar.jpg" alt="creta"/>
+                                <div class="product-name"><a href="blog1.html">Thar </a></div>
+                                <div class="product-brand"> </div>
+                                <div class="product-price"> ₹ 9.80 lakhs - ₹13.15 lakhs</div>
+                                <div class="product-version"> thar</div>
+                        
+                            </div>
+                        
+                        </li>
+                        <li>
+                            <div class="product">
+                                <img class="product-image" src="images/ford.jpg" alt="creta"/>
+                                <div class="product-name"><a href="blog1.html">ford endeavour </a></div>
+                                <div class="product-brand">Ford </div>
+                                <div class="product-price"> ₹ 30 lakh onwards</div>
+                                <div class="product-version">Titanium2.0 </div>
+                        
+                            </div>
+                        
+                        </li>
+                        <li>
+                            <div class="product">
+                                <img class="product-image" src="images/land rover.jpg" alt="creta"/>
+                                <div class="product-name"><a href="blog1.html">Land rover discovery </a></div>
+                                <div class="product-brand">Land Rover  </div>
+                                <div class="product-price"> ₹ 44.08 lakh onwards</div>
+                                <div class="product-version"> Discovery</div>
+                        
+                            </div>
+                        
+                        </li>
+                        
+                    
+                    
+                    </ul>
+                </div>
+                
+            </main>
+            <footer class="footer">
+                All right reserved.
+            </footer>
+        </div>
+        <script>
+             function openMenu() {
+                    document.querySelector(".sidebar").classList.add("open");
+                }
+                function closeMenu() {
+                    document.querySelector(".sidebar").classList.remove("open")
+                }
+        </script>
+        
+    </body>
+</html>
